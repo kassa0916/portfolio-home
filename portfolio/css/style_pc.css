@@ -1,0 +1,125 @@
+html{
+	margin : 0;
+	padding: 0;
+}
+
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	text-align: center;
+	font-family: 'Noto Sans JP';
+}
+
+.top{
+	background-image:url(../img/main_pc.jpg);
+	height:100vh;
+	background-repeat    :no-repeat;
+	background-position  :center;         
+    background-size      :cover;                                   
+}
+
+.list{
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	font-size: 25px;
+	background-color:#F0DDD0;
+    color: #F0DDC3;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin :0;
+}
+
+ul li a img{
+	position: relative;
+	top:9px;
+}
+
+#hoge1{
+		font-family: 'Sofia';
+		font-size  : 30pt; 
+		position:relative;
+		margin-top: 0;
+		padding     : 10% 50% 0% 5%; 
+		color:#F4F5F7;
+		text-shadow: 1px 1px #808080;
+		white-space: nowrap;
+}
+
+#hoge2{
+		font-family: 'Sofia';
+		font-size  : 50pt;
+		position:relative;
+		margin: 0% 50% 0% 5%;
+		color:#F4F5F7;
+	    text-shadow: 1px 1px #808080;
+	    white-space: nowrap;
+}
+
+.container{
+	margin-bottom:50px;
+	flex-direction: column;
+}
+
+div{
+	display: block;
+	justify-content: center;
+}
+
+.fadeIn{
+	transition: 3s;
+	opacity: 0;
+}
+
+.fadeIn.animated {
+  opacity: 1;
+}
+
+.subtitle{
+	margin: 100px 150px 30px 100px;
+	text-align:  left;
+	font-size: 35pt;
+}
+
+#fBox{
+	display: flex;
+	margin-top: 100px; 
+}
+
+.profile dt{
+	float : left;
+	margin-left: 50px ;
+}
+
+.profile dd{
+	text-align: left;
+	white-space: nowrap;
+	margin-right: 50px;
+}
+
+#sBoxFloat{
+	display: flex;
+	justify-content: space-around;
+	margin-top:20px;
+}
+
+#hBoxFloat{
+	display: flex;
+	justify-content: space-around;
+}
+
+#hBoxRight{
+	opacity: 0.3;
+}
+
+h5{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+
+#copyright{
+	font-size: smaller;
+	text-align: right;
+	margin-right:5%;
+}
